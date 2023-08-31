@@ -11,7 +11,7 @@ jobs:
       - name: miltiline script
         run: |
           node -v
-          npn -v
+          npm -v
       - name: python Command
         run: |
           import platform
