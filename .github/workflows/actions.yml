@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Simple JS Action
-        uses: actions/hello-wirkd-javascript-action@master
+        uses: actions/hello-world-javascript-action@master
