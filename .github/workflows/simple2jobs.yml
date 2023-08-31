@@ -9,11 +9,11 @@ jobs:
       - name: echo a string
         run: echo "Hello World"
       - name: miltiline script
-        run:
+        run: |
           node -v
           npn -v
       - name: python Command
-        run:
+        run: |
           import platform
           print(platform.processer())
         shell: python
